@@ -1,0 +1,47 @@
+extra:
+  analytics:
+    property: G-5Z1VTPDL73
+    provider: google
+extra_css:
+- assets/versions.css
+extra_javascript:
+- assets/versions.js
+markdown_extensions:
+- codehilite
+- admonition
+- pymdownx.superfences
+- pymdownx.tabbed
+- footnotes
+- toc:
+    permalink: true
+nav:
+- Overview: index.md
+- Installation: installation.md
+- Providers: provider-status.md
+- Quick start: quick-start.md
+- Features: 
+  - Advanced Deployments: features/advanced-deployments.md
+  - Multiple Routes: features/multiple-routes.md
+  - Header Based Routing: features/header-based-routing.md    
+  - TCP Routing: features/tcp.md
+  - GRPC Routing: features/grpc.md  
+
+- Contributing: CONTRIBUTING.md
+repo_url: https://github.com/phamlengocson/rollouts-plugin-trafficrouter-gatewayapi
+site_name: Argo Rollouts Gateway API Plugin - by Phạm Lê Ngọc Sơn
+site_url: https://phamlengocson.github.io/rollouts-plugin-trafficrouter-gatewayapi/
+theme:
+  font:
+    text: Work Sans
+  logo: assets/logo.png
+  name: material
+  palette:
+  - primary: teal
+    scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
